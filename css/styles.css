@@ -92,8 +92,17 @@ body {
     color: #047009;
 }
 
-.right-border {
-    border-right: 1px solid #D3D3D3;
+@media (max-width: 970px) {
+    .right-border {
+        border-bottom: 1px solid #D3D3D3;
+        margin: 30px 0;
+    }
+}
+
+@media (min-width: 970px) {
+    .right-border {
+        border-right: 1px solid #D3D3D3;
+    }
 }
 
 
