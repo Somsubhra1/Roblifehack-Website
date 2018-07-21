@@ -1,0 +1,115 @@
+@keyframes h1animated {
+    0% {
+        transform: rotate(0) translateY(50%);
+    }
+    50% {
+        transform: rotate(0) translateY(25%);
+    }
+    100% {
+        transform: rotate(0) translateY(0%);
+    }
+}
+
+@keyframes adminnameanimated {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        transform: rotate(xx);
+        opacity: 1;
+
+    }
+}
+
+body {
+    background: #DAE2F8;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D6A4A4, #DAE2F8);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100%;
+}
+
+.container {
+    margin-bottom: 50px;
+}
+
+.main-content {
+    margin-top: 50px;
+    background-color: rgba(238, 238, 238, 0.6);
+}
+
+.main-content h1 {
+    margin-top: -10px;
+    font-weight: bold;
+    color: #f63;
+}
+
+.main-content h4 a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-content p {
+    margin: 20px;
+}
+
+.blink {
+    color: #f63;
+}
+
+.typed-cursor {
+    color: #f63;
+}
+
+.chat-link {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.user-content h1 {
+    margin-top: -10px;
+    margin-bottom: 40px;
+    color: #466df6;
+    font-weight: bold;
+    animation: h1animated 1.5s forwards 0s linear;
+}
+
+.user-content h3 {
+    font-weight: bold;
+    animation: adminnameanimated 1.5s forwards 0s linear;
+}
+
+.admin {
+    color: #d63031;
+}
+
+.normal-user {
+    color: #047009;
+}
+
+.right-border {
+    border-right: 1px solid #D3D3D3;
+}
+
+
+.panel-footer {
+    margin-top: -10px;
+    background-color: #ffc39a;
+    /* #e7dca9;  #50394c;*/
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.panel-footer p {
+    padding-bottom: -5px;
+}
+
+.copyright {
+    color: #000;
+}
