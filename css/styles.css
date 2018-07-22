@@ -54,7 +54,7 @@ body {
     font-weight: bold;
 }
 
-.main-content p {
+.main-content .lead {
     margin: 20px;
 }
 
@@ -67,8 +67,24 @@ body {
 }
 
 .chat-link {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     font-weight: bold;
+}
+
+.jumbotron .or {
+    font-size: 15px;
+    margin: 5px;
+    margin-bottom: 3px;
+}
+
+.jumbotron .direct-link {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.jumbotron .direct-link a {
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .user-content h1 {
