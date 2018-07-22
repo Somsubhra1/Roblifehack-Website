@@ -87,6 +87,20 @@ body {
     text-decoration: none;
 }
 
+.jumbotron .news-content h1, .jumbotron .links-content h1 {
+    font-size: 2em;
+}
+
+.news-content h1, .links-content h1 {
+    margin-top: -10px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.news-content li, .links-content li {
+    text-align: left;
+}
+
 .user-content h1 {
     margin-top: -10px;
     margin-bottom: 40px;
