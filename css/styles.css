@@ -122,6 +122,10 @@ body {
     animation: adminnameanimated 1.5s forwards 0s linear;
 }
 
+.divider {
+    border-top-color: #d5d5d5;
+}
+
 .admin {
     color: #d63031;
 }
@@ -130,16 +134,12 @@ body {
     color: #047009;
 }
 
-@media (max-width: 970px) {
-    .right-border {
-        border-bottom: 1px solid #D3D3D3;
-        margin: 30px 0;
-    }
-}
-
 @media (min-width: 970px) {
     .right-border {
-        border-right: 1px solid #D3D3D3;
+        border-right: 1px solid #D5D5D5;
+    }
+    .divider {
+        visibility: hidden;
     }
 }
 
